@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(50,50,54);
+    text-align: center;
+    color: whitesmoke;
+}
+.box{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    background-color: wheat;
+    padding: 5px;
+    width: 217px;
+}
+.cell{
+    background-color: rgb(50, 50, 54);
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.cell p{
+    color: whitesmoke;
+    font-size: 50px;
+}
